@@ -1,0 +1,147 @@
+.image {
+  height: 100px;
+  width: 100px;
+}
+
+.button {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.main-bg {
+  background-color: #223a5f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+.header-container {
+  display: flex;
+  width: 300px;
+  justify-content: space-between;
+  border: solid;
+  border-color: #ffffff;
+  border-width: 2px;
+  border-radius: 10px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.names {
+  margin-left: 20px;
+  color: #ffffff;
+  font-family: 'Bree Serif';
+}
+
+.score-container {
+  background-color: #ffffff;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+.score-text {
+  margin-bottom: 2px;
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: 900;
+}
+.score-num {
+  margin-top: 2px;
+  font-size: 25px;
+  font-family: 'Roboto';
+  font-weight: 900;
+  margin-bottom: 2px;
+}
+.draw-container {
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+}
+.player-selection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  color: #ffffff;
+}
+.game-status {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 30px;
+}
+.playAgain {
+  background-color: #ffffff;
+  height: 50px;
+  width: 200px;
+  outline: none;
+  border: none;
+  font-family: 'Bree Serif';
+  color: #223a5f;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+.game-status-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.play-again-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.game-view {
+  width: 250px;
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rules-img {
+  height: 400px;
+  width: 500px;
+}
+
+.rules-container {
+  background-color: #ffffff;
+  height: 500px;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.close-button {
+  align-self: flex-end;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.trigger-button {
+  background-color: #ffffff;
+  color: #223a5f;
+  font-family: 'Bree Serif';
+  height: 30px;
+  width: 50px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: 20px;
+}
+.rulescon {
+  position: relative;
+}
